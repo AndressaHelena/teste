@@ -1,8 +1,8 @@
-package teste;
+package CodeGirls;
 
 import java.util.Scanner;
 
-public class Teste {
+public class PegarIndiceMatriz {
 
 	public static void main(String[] args) {
 
@@ -17,7 +17,7 @@ public class Teste {
 			System.out.println("Digite o indice");
 			int indice = input.nextInt();
 			System.out.println(nomes[indice]);
-
+			input.close();
 		}
 	}
 }
