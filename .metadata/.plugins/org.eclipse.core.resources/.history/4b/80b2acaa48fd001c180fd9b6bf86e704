@@ -1,0 +1,26 @@
+package CodeGirls;
+
+import java.util.Scanner;
+
+public class IndiceVetor {
+
+	public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+        String[] nomes  = new String[];
+        System.out.println(nomes);
+        for (int i = 0; i < nomes.length; i++)
+        {
+
+            nomes[] = input.nextLine();
+        }
+
+        int posicao = input.nextInt();
+        System.out.println(nomes);
+       
+}
+
+
+	}
+
+
