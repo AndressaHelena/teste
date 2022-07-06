@@ -1,9 +1,0 @@
-package treinamento.com;
-
-public class operador {
-
-	public operador() {
-		// TODO Auto-generated constructor stub
-	}
-
-}
