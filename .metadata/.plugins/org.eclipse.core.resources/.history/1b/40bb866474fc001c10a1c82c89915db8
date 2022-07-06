@@ -1,0 +1,19 @@
+package treinamento.com;
+
+import java.time.LocalDate;
+
+public class stringData {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String  nome = "Andressa";
+		
+		LocalDate hoje = LocalDate.now();
+		System.out.println(hoje.getDayOfWeek());
+		
+	}
+
+}
+//System.out.println(nome.toUpperCase());
+//System.out.println(nome.toLowerCase());
+//System.out.println(nome.length());
