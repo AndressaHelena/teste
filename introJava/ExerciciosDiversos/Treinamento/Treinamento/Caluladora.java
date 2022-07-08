@@ -1,4 +1,7 @@
+package Treinamento;
+
 import java.util.Scanner;
+
 public class Caluladora {
 
 	public static void main(String[] args) {
@@ -7,13 +10,13 @@ public class Caluladora {
 		int cont = 1;
 
 		System.out.println("### CALCULO ###");
-		System.out.print("[1] Somar ");	
+		System.out.print("[1] Somar ");
 		System.out.print("\n[2] Subtrair");
 		System.out.print("\n[3] Multiplicar ");
 		System.out.print("\n[4] Dividir ");
 
 		System.out.println();
-		System.out.print("\nDigite a opção: ");
+		System.out.print("\nDigite a opÃ§Ã£o: ");
 		int op = scanner.nextInt();
 
 		do {
@@ -22,9 +25,9 @@ public class Caluladora {
 				switch (op) {
 				case 1:
 					System.out.println("\n### SOMA ###");
-					System.out.print("Digite um número: ");
+					System.out.print("Digite um nÃºmero: ");
 					numero1 = scanner.nextDouble();
-					System.out.print("Digite outro número: ");
+					System.out.print("Digite outro nÃºmero: ");
 					numero2 = scanner.nextDouble();
 					resultado = numero1 + numero2;
 					System.out.println("Resultado: " + resultado);
@@ -32,9 +35,9 @@ public class Caluladora {
 
 				case 2:
 					System.out.println("\n### SUBTRAIR ###");
-					System.out.print("Digite um número: ");
+					System.out.print("Digite um nÃºmero: ");
 					numero1 = scanner.nextDouble();
-					System.out.print("Digite outro número: ");
+					System.out.print("Digite outro nÃºmero: ");
 					numero2 = scanner.nextDouble();
 					resultado = (int) (numero1 - numero2);
 					System.out.println("Resultado: " + resultado);
@@ -42,9 +45,9 @@ public class Caluladora {
 
 				case 3:
 					System.out.println("\n### MULTIPLICAR ###");
-					System.out.print("Digite um número: ");
+					System.out.print("Digite um nÃºmero: ");
 					numero1 = scanner.nextDouble();
-					System.out.print("Digite outro número: ");
+					System.out.print("Digite outro nÃºmero: ");
 					numero2 = scanner.nextDouble();
 					resultado = (int) (numero1 * numero2);
 					System.out.println("Resultado: " + resultado);
@@ -52,9 +55,9 @@ public class Caluladora {
 
 				case 4:
 					System.out.println("\n### DIVIDIR ###");
-					System.out.print("Digite um número: ");
+					System.out.print("Digite um nÃºmero: ");
 					numero1 = scanner.nextDouble();
-					System.out.print("Digite outro número: ");
+					System.out.print("Digite outro nÃºmero: ");
 					numero2 = scanner.nextDouble();
 					resultado = numero1 / numero2;
 					System.out.println("Resultado: " + resultado);
@@ -62,10 +65,10 @@ public class Caluladora {
 
 				}
 			} else {
-				System.err.println("Opção Inválida!");
+				System.err.println("OpÃ§Ã£o InvÃ¡lida!");
 			}
 			System.out.println();
-			System.out.print("Quer fazer mais um cálculo? (y/n)");
+			System.out.print("Quer fazer mais um cÃ¡lculo? (y/n)");
 			char resp = scanner.next().charAt(0);
 
 			if (resp == 'y') {
@@ -76,7 +79,7 @@ public class Caluladora {
 				System.out.print("\n[4] Dividir ");
 
 				System.out.println();
-				System.out.print("\nDigite a opção: ");
+				System.out.print("\nDigite a opÃ§Ã£o: ");
 				op = scanner.nextInt();
 
 				cont++;
@@ -85,7 +88,7 @@ public class Caluladora {
 			}
 
 		} while (cont != 0);
-		System.out.println("\nFIM DE EXECUÇÃO.");
+		System.out.println("\nFIM DE EXECUÃ‡ÃƒO.");
 		scanner.close();
 
 	}

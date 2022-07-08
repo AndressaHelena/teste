@@ -1,3 +1,4 @@
+package Treinamento;
 
 import java.util.Scanner;
 
@@ -13,7 +14,7 @@ public class ExercicioDio {
 		B = sc.nextDouble();
 
 		if (A > 10 || A < 0 || B > 10 || B < 0) {
-			System.err.println("Nota Inválida, digite uma nota de 0 a 10!");
+			System.err.println("Nota Invï¿½lida, digite uma nota de 0 a 10!");
 
 		} else {
 			media = (A * 3.5 + B * 7.5) / 11;

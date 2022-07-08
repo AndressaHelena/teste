@@ -1,15 +1,17 @@
+package Treinamento;
+
 import java.util.Scanner;
 	
 	public class Jokenpo {
 		public static void main (String[]args){
 			int jogador,pc;
 			Scanner teclado = new Scanner(System.in);
-			System.out.println("-----JoKenPô-----");
+			System.out.println("-----JoKenPï¿½-----");
 			System.out.println("");
 			System.out.println("1- Pedra");
 			System.out.println("2- Papel");
 			System.out.println("3- Tesoura");
-			System.out.print("Digite a opção desejada: ");
+			System.out.print("Digite a opï¿½ï¿½o desejada: ");
 			//Logica do jogador
 			jogador=teclado.nextInt();
 			switch(jogador){
@@ -23,7 +25,7 @@ import java.util.Scanner;
 				System.out.println("Jogador escolheu TESOURA");
 				break;
 			default:
-				System.out.println("Opção INVÁLIDA");
+				System.out.println("Opï¿½ï¿½o INVï¿½LIDA");
 			}	
 			//Logica do computador
 				pc =(int)(Math.random()*3 + 1);

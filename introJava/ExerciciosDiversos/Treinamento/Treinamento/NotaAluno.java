@@ -1,25 +1,25 @@
-package treinamento.com;
+package Treinamento;
 
 public class NotaAluno {
 
 	public static void main(String[] args) {
-		// graduação A=8 B=7 C=6 D=0ate5
+		// graduaï¿½ï¿½o A=8 B=7 C=6 D=0ate5
 		int notaAluno = 10;
 		String graduacao;
-		
-		if(notaAluno >= 8 && notaAluno <= 10) {
+
+		if (notaAluno >= 8 && notaAluno <= 10) {
 			graduacao = "A";
-		}else if(notaAluno >= 7 && notaAluno < 8) {
-			graduacao=  "B";
-		}else if(notaAluno >= 6 && notaAluno < 7) {
+		} else if (notaAluno >= 7 && notaAluno < 8) {
+			graduacao = "B";
+		} else if (notaAluno >= 6 && notaAluno < 7) {
 			graduacao = "C";
-		}else if(notaAluno > 0 && notaAluno <= 5) {
+		} else if (notaAluno > 0 && notaAluno <= 5) {
 			graduacao = "D";
-		}else {
+		} else {
 			graduacao = "";
 		}
-		
-		switch(graduacao) {
+
+		switch (graduacao) {
 		case "A":
 		case "B":
 			System.out.println("Aluno Aprovado.");
@@ -29,15 +29,14 @@ public class NotaAluno {
 			System.out.println("Aluno Reprovado.");
 			break;
 		default:
-			System.out.println("Graduação invalida");
-			
+			System.out.println("Graduaï¿½ï¿½o invalida");
+
 		}
 	}
 }
-		
+
 //		if(notaAluno >= 7) {
 //			System.out.println("Aluno Aprovado.");
 //		}else {
 //			System.out.println("Aluno Reprovado.");
 //		}
-

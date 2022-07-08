@@ -1,4 +1,4 @@
-package treinamento.com;
+package Treinamento;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -9,12 +9,12 @@ public class stringData {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String  nome = "Andressa";
-		
+		String nome = "Andressa";
+
 		LocalDate hoje = LocalDate.now();
-		Locale brasil = new Locale ("pt" , "BR");
+		Locale brasil = new Locale("pt", "BR");
 //		System.out.println(hoje.getDayOfWeek().getDisplayName(TextStyle.FULL, brasil));
-		String diaSemana =hoje.getDayOfWeek().getDisplayName(TextStyle.FULL, brasil);
+		String diaSemana = hoje.getDayOfWeek().getDisplayName(TextStyle.FULL, brasil);
 		String saudacao = null;
 		LocalDateTime agora = LocalDateTime.now();
 		if (agora.getHour() >= 8 && agora.getHour() >= 12) {
@@ -24,9 +24,9 @@ public class stringData {
 		} else if (agora.getHour() >= 18 && agora.getHour() >= 24) {
 			saudacao = "Bom Noite!";
 		}
-		
-		System.out.printf("Ol·, %s. Hoje È %s, %s %n", nome, diaSemana, saudacao.toUpperCase());
-		
+
+		System.out.printf("Ol√°, %s. Hoje √© %s, %s %n", nome, diaSemana, saudacao.toUpperCase());
+
 	}
 
 }

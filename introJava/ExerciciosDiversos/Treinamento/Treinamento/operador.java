@@ -1,4 +1,4 @@
-package treinamento.com;
+package Treinamento;
 
 public class operador {
 

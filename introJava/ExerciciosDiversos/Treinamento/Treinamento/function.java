@@ -1,4 +1,4 @@
-package treinamento.com;
+package Treinamento;
 
 public class function {
 
@@ -7,12 +7,13 @@ public class function {
 		saudacao(nomeOriginal);
 
 	}
-	//função que no java chama METODO
+
+	// funï¿½ï¿½o que no java chama METODO
 	public static void saudacao(String nomeParametro) {
 		System.out.println("Hello, " + nomeParametro + "!");
 	}
-	
-	public static void conta () {
+
+	public static void conta() {
 		System.out.println("mais");
 	}
 
