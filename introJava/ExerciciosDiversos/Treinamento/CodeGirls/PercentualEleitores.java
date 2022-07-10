@@ -13,7 +13,7 @@ public class PercentualEleitores {
 		int brancos = input.nextInt();
 		System.out.print("Digite número de votos nulos: ");
 		int nulos = input.nextInt();
-		System.out.print("Digite número de votos v�lidos: ");
+		System.out.print("Digite número de votos válidos: ");
 		int validos = input.nextInt();
 
 		int porcentagemBrancos = (brancos * 100) / habitantes;
@@ -22,7 +22,7 @@ public class PercentualEleitores {
 
 		System.out.println("Brancos: " + porcentagemBrancos + "%");
 		System.out.println("Nulos: " + porcentagemNulos + "%");
-		System.out.println("Validos: " + porcentagemValidos + "%");
+		System.out.println("Válidos: " + porcentagemValidos + "%");
 		input.close();
 	}
 }
