@@ -72,12 +72,10 @@ code {
 
 @media (min-width: 320px) and (max-width: 600px){ 
   ul li {
-    display: block;
-    margin: auto;
+    
     width: 80%;
     margin-bottom: 10px;
-    border: 2px dashed;
-    font-size: 18px;
+   
   }
 
   main section h3 {
