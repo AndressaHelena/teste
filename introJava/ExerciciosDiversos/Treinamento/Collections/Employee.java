@@ -1,15 +1,15 @@
 package Collections;
 
-public class ListEmployee {
+public class Employee {
 
 	private Integer id;
 	private String name;
 	private Double salary;
 
-	public ListEmployee() {
+	public Employee() {
 	}
 
-	public ListEmployee(Integer id, String name, Double salary) {
+	public Employee(Integer id, String name, Double salary) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -41,7 +41,7 @@ public class ListEmployee {
 	}
 
 	public void IncreaseSalary(double porcentage) {
-		// salary = salary + expressão
+		// salary = salary + expressï¿½o
 		salary += salary * porcentage / 100.0;
 	}
 

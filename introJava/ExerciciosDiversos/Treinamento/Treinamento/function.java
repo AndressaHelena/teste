@@ -4,7 +4,7 @@ public class function {
 
 	public static void main(String[] args) {
 		String nomeOriginal = "Andressa";
-		saudacao(nomeOriginal);
+		pergunta(nomeOriginal);
 
 	}
 
@@ -13,8 +13,8 @@ public class function {
 		System.out.println("Hello, " + nomeParametro + "!");
 	}
 
-	public static void conta() {
-		System.out.println("mais");
+	public static void pergunta(String nomeParametro) {
+		System.out.println("Como vai " + nomeParametro + "?" );
 	}
 
 }

@@ -17,12 +17,12 @@ public class stringData {
 		String diaSemana = hoje.getDayOfWeek().getDisplayName(TextStyle.FULL, brasil);
 		String saudacao = null;
 		LocalDateTime agora = LocalDateTime.now();
-		if (agora.getHour() >= 8 && agora.getHour() >= 12) {
+		if (agora.getHour() >= 8 && agora.getHour() <= 12) {
 			saudacao = "Bom dia!";
-		} else if (agora.getHour() >= 12 && agora.getHour() >= 18) {
-			saudacao = "Bom Tarde!";
-		} else if (agora.getHour() >= 18 && agora.getHour() >= 24) {
-			saudacao = "Bom Noite!";
+		} else if (agora.getHour() >= 12 && agora.getHour() <= 18) {
+			saudacao = "Boa Tarde!";
+		} else if (agora.getHour() >= 18 && agora.getHour() <= 24) {
+			saudacao = "Boa Noite!";
 		}
 
 		System.out.printf("Olá, %s. Hoje é %s, %s %n", nome, diaSemana, saudacao.toUpperCase());

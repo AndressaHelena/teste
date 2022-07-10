@@ -8,7 +8,7 @@ public class Intervalo {
 
 		Scanner scan = new Scanner(System.in);
 
-		System.out.print("Digite o número: ");
+		System.out.print("Digite o nÃºmero: ");
 		double valor = Double.parseDouble(scan.nextLine());
 		// double valor = scan.nextDouble();
 

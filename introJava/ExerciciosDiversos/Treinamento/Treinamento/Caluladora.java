@@ -9,7 +9,7 @@ public class Caluladora {
 		double resultado, numero1, numero2;
 		int cont = 1;
 
-		System.out.println("### CALCULO ###");
+		System.out.println("### CÁLCULO ###");
 		System.out.print("[1] Somar ");
 		System.out.print("\n[2] Subtrair");
 		System.out.print("\n[3] Multiplicar ");
@@ -72,7 +72,7 @@ public class Caluladora {
 			char resp = scanner.next().charAt(0);
 
 			if (resp == 'y') {
-				System.out.println("\n### CALCULO ###");
+				System.out.println("\n### CÁLCULO ###");
 				System.out.print("[1] Somar ");
 				System.out.print("\n[2] Subtrair");
 				System.out.print("\n[3] Multiplicar ");

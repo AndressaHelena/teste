@@ -9,7 +9,7 @@ public class LoucaNoGerente {
 
 		System.out.print("Digite o desconto: ");
 		int desconto = input.nextInt();
-		System.out.print("Digite o preço ");
+		System.out.print("Digite o preÃ§o ");
 		int precoAntigo = input.nextInt();
 
 		int precoNovo = precoAntigo - (precoAntigo * desconto / 100);

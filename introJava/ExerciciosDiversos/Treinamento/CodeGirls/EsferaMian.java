@@ -6,7 +6,7 @@ public class EsferaMian {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("número: ");
+		System.out.println("nÃºmero: ");
 
 		double pi = 3.14159;
 		double R = sc.nextDouble();

@@ -3,7 +3,7 @@ package Treinamento;
 public class NotaAluno {
 
 	public static void main(String[] args) {
-		// gradua��o A=8 B=7 C=6 D=0ate5
+		// graduação A=8 B=7 C=6 D=0ate5
 		int notaAluno = 10;
 		String graduacao;
 
@@ -29,7 +29,7 @@ public class NotaAluno {
 			System.out.println("Aluno Reprovado.");
 			break;
 		default:
-			System.out.println("Gradua��o invalida");
+			System.out.println("Graduação invalida");
 
 		}
 	}
