@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
-    <title>Documento de Teste</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Git</title>
   </head>
   <body>
     <header>
@@ -14,63 +14,108 @@
     <main>
       <section>
         <h2>Este é um Documento de teste de comandos git</h2>
-        <h3>Comandos utilizados:</h3>
+        <div class="instructions">
+          <h3>Como fazer um pull request:</h3>
+          <p>
+            Clone o repositório desejado para a sua máquina através do comando
+            <code>git clone</code>. Sempre que trabalhar em um repositório
+            colaborativo é importante ramificar o repositório, isolando as
+            alterações do branch principal (por padrão é nomeado como
+            <code>main</code>).
+            <br />
+            <br />
+            Então dentro do diretório do repositório use o comando
+            <code>git branch nome-da-branch</code> para criar uma branch,
+            lembre-se de dar um nome especifico para ela, depois o comando
+            <code>git checkout nome-da-branch</code> para entrar na branch. Ou
+            então utilize o comando
+            <code>git checkout -b nome-da-branch</code> para criar a branch e
+            dar o checkout nela.
+            <br />
+            <br />
+            Agora faça as alterações necessárias nos arquivos e utilize
+            <code>git add -A</code> para adicionar as alterações ao repositório
+            local, o <code>-A</code> adiciona todas a alterações. Então o
+            <code>git commit -m "mensagem de commit"</code> para enfim registrar
+            as alterações, lembre-se de escrever uma mensagem descritiva às
+            alterações que foram feitas mas não muito longa, o limite é de 50
+            caracteres.
+            <br />
+            <br />
+            Com o <code>git status</code> é possível verificar o estado do
+            commit recém criado.
+            <br />
+            <br />
+            Agora já é possível fazer o push para o repositório que foi feito o
+            fork, comece pelo comando
+            <code>git push --set-upstream origin nome-da-branch</code>. Agora no
+            repositório do github web é possível, navegue até a branch para
+            checar as alterações feitas.
+            <br />
+            <br />
+            Para sincronizar o fork começa pelo comando
+            <code>git fetch upstream</code>, depois
+            <code>git checkout main</code> e por ultimo
+            <code>git merge upstream/main</code>.
+            <br />
+            <br />
+            Para concluir o pull request navegue até o seu fork no github web e
+            clique em New pull request, adicione um titulo é uma descrição. A
+            partir daí quem controla o repositório original decidirá se vai ou
+            não aceitar incorporar as alterações.
+          </p>
+        </div>
+
+        <h4>Comandos utilizados:</h4>
         <ul>
           <li>
-            <code>git init</code>:
-            <br/><br/>
-            iniciar o repositório 
+            <code>git init</code>: <br /><br />
+            iniciar o repositório
           </li>
 
           <li>
-            <code>git clone <em>endereço-do-repositório</em></code>:
-            <br/><br/>
-            clona o repositório para um diretorio local 
+            <code>git clone <em>endereço-do-repositório</em></code
+            >: <br /><br />
+            clona o repositório para um diretorio local
           </li>
 
           <li>
-            <code>git branch <em>nome-do-branch</em></code>:
-            <br/><br/>
+            <code>git branch <em>nome-do-branch</em></code
+            >: <br /><br />
             cria um branch do repositório
-
           </li>
 
           <li>
-            <code>git status</code>:
-            <br/><br/>
+            <code>git status</code>: <br /><br />
             Listando Arquivos Modificados
           </li>
 
           <li>
-            <code>touch <em>"nome e extensão do arquivo"</em></code>:
-            <br/><br/>
+            <code>touch <em>"nome e extensão do arquivo"</em></code
+            >: <br /><br />
             cria um arquivo, exemplo: touch index.html
-
           </li>
 
           <li>
-            <code>git add -A </code>:
-            <br/><br/>
+            <code>git add -A </code>: <br /><br />
             adiciona às alterações à fila de commit
           </li>
 
           <li>
-            <code>git commit -m <em>"mensagem de commit"</em></code>:
-            <br/><br/>
+            <code>git commit -m <em>"mensagem de commit"</em></code
+            >: <br /><br />
             commit os arquivos ao repositório
           </li>
 
           <li>
-            <code>git log</code>:
-            <br/><br/>
-            Visualizando o Histórico de Commits 
+            <code>git log</code>: <br /><br />
+            Visualizando o Histórico de Commits
           </li>
 
           <li>
-            <code>git push --set-upstream origin <em>nome-do-branch</em></code>: 
-            <br/><br/>
+            <code>git push --set-upstream origin <em>nome-do-branch</em></code
+            >: <br /><br />
             faz um push das alterações para a branch atual
-
           </li>
         </ul>
       </section>

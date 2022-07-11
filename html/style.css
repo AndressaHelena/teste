@@ -10,7 +10,7 @@ body {
   font-family: sans-serif;
 }
 
-body{
+body {
   width: 80%;
   /* border: 2px solid; */
   margin: 80px auto;
@@ -36,17 +36,29 @@ main section h2 {
   text-align: center;
 }
 
-main section h3 {
+main section h4 {
   margin-top: 24px;
   margin-left: 20%;
-  
 }
 
-ul{
+.instructions {
+  margin-top: 16px;
+  margin-inline: auto;
+  border: 1px dashed;
+  width: 60%;
+  padding: 16px;
+}
+
+.instructions p {
+  line-height: 1.5;
+  margin-top: 8px;
+}
+
+ul {
   display: flex;
   flex-direction: column;
-  
-  gap: 16px
+
+  gap: 16px;
 }
 
 ul li {
@@ -56,8 +68,7 @@ ul li {
   margin-bottom: 16px;
   border: 2px dashed;
   font-size: 18px;
-  
-  
+
   padding: 16px;
 }
 
@@ -66,19 +77,17 @@ code {
   font-weight: bold;
   color: aliceblue;
   font-size: 20;
-  
+
   padding: 4px;
 }
 
-@media (min-width: 320px) and (max-width: 600px){ 
+@media (min-width: 320px) and (max-width: 600px) {
   ul li {
-    
     width: 80%;
     margin-bottom: 10px;
-   
   }
 
-  main section h3 {
+  main section h4 {
     margin-left: 10%;
   }
 }
