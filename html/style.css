@@ -11,7 +11,7 @@ body {
 }
 
 body{
-  width: 992px;
+  width: 80%;
   /* border: 2px solid; */
   margin: 80px auto;
 }
@@ -38,19 +38,26 @@ main section h2 {
 
 main section h3 {
   margin-top: 24px;
+  margin-left: 20%;
+  
 }
 
 ul{
   display: flex;
   flex-direction: column;
+  
   gap: 16px
 }
 
 ul li {
-  width: 450px;
+  display: block;
+  margin: auto;
+  width: 60%;
   margin-bottom: 16px;
   border: 2px dashed;
-
+  font-size: 18px;
+  
+  
   padding: 16px;
 }
 
@@ -58,6 +65,20 @@ code {
   background: gray;
   font-weight: bold;
   color: aliceblue;
+  font-size: 20;
   
   padding: 4px;
+}
+
+@media (min-width: 320px) and (max-width: 600px){ 
+  ul li {
+    
+    width: 80%;
+    margin-bottom: 10px;
+   
+  }
+
+  main section h3 {
+    margin-left: 10%;
+  }
 }
